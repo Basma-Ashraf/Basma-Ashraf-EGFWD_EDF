@@ -1,0 +1,19 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo_THUMB': (DO NOT MODIFY !)
+CompilerVersion: <unknown>
+F (.\Startup.s)(0x61C3CF62)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I ..\..\Source\portable\RVDS\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\startup.lst --xref -o .\bin\startup.o --depend .\bin\startup.d)
+F (.\ParTest\ParTest.c)(0x61C3CF62)()
+F (.\main.c)(0x6379C5A6)()
+F (.\serial\serial.c)(0x6379D02C)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\..\Source\portable\RVDS\ARM7_LPC21xx -I ..\Common\include -I ..\..\Source\include -I .\ParTest -I .\serial -I ..\..\Starter_Files_V1\Starter_Files_V1\header -I ..\..\Starter_Files_V1\Starter_Files_V1\lib-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\serial.o --omf_browse .\bin\serial.crf --depend .\bin\serial.d)
+F (.\serial\serialISR.s)(0x61C3CF62)()
+F (..\..\Source\tasks.c)(0x637B324A)()
+F (..\..\Source\list.c)(0x61C3CFAA)()
+F (..\..\Source\queue.c)(0x61C3CFAA)()
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\port.c)(0x61C3CFAA)()
+F (..\..\Source\portable\MemMang\heap_2.c)(0x61C3CFAA)()
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\portASM.s)(0x6379C8F2)()
+F (..\Common\Minimal\flash.c)(0x61C3CF64)()
+F (..\Common\Minimal\comtest.c)(0x61C3CF64)()
+F (..\Common\Minimal\BlockQ.c)(0x61C3CF64)()
+F (..\Common\Minimal\dynamic.c)(0x61C3CF64)()
+F (..\Common\Minimal\PollQ.c)(0x61C3CF64)()
+F (..\Common\Minimal\semtest.c)(0x61C3CF64)()
